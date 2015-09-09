@@ -1,5 +1,5 @@
 # OS X Google Dynamic DNS Updater
-A simple shell script to update your Google Domains synthetic record, keeping it in sync with your current external IP address. This script queries icanhazip.com, then uses the response to make an API call to Google Domains and perform an update.
+A simple shell script to update your Google Domains synthetic record, keeping it in sync with your current external IP address. This script queries icanhazip.com, then uses the response to make an API call to Google Domains and perform an update. This package depends on curl (https://github.com/bagder/curl) and cron (comes with OS X). Make sure these dependencies are installed and functional before proceeding.
 
 ## Installation
 
