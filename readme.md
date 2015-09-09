@@ -27,3 +27,5 @@ Great! Now you’re ready to create a cron job to run this script every 5 minute
 2. Press “i” to enter insert mode
 3. Copy and paste “*/5 * * * * ~/googleDNS/updater.sh >/dev/null 2>&1” at the bottom of the file. Make sure to update the script path if different
 4. Save the file by pressing ESC, typing “:wq!”, then pressing ENTER
+
+As long as your computer is running and executing this script, your Google Domains synthetic record should be udpated every 5 minutes. Enjoy!
