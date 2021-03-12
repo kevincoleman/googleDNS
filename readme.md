@@ -5,9 +5,9 @@ A simple shell script to update your Google Domains synthetic record, keeping it
 
 1. Clone this repository to your location of liking. The default assumes it’s in your user directory (`~/googleDNS`), but you can put it wherever is most convenient. Keep in mind that you’ll need to use the path of the location you clone this project into
 2. Open `updater.sh` with a text editor
-3. On the second line, replace `username` with the username from your Google Domains synthetic DNS record
-4. On the second line, replace `password` with the password from your Google Domains synthetic DNS record
-5. Later in the second line, replace `domainToUpdate.com` with the domain you have set up with Google’s synthetic record
+3. On the second line, replace `<user>` with the username from your Google Domains synthetic DNS record
+4. On the third line, replace `<pass>` with the password from your Google Domains synthetic DNS record
+5. On the fourth line, replace `<your_domains>` with the domain you have set up with Google’s synthetic record
 6. If you cloned to a location other than your user folder, make sure to update `~/googleDNS/response.log` to reflect the new path
 7. Open Terminal (found in Applications/Utilities/Terminal)
 8. Browse to this project’s folder (`cd ~/googleDNS`)
