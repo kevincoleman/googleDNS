@@ -3,4 +3,4 @@ username=<user>
 password=<pass>
 domainToUpdate=<your_domains>
 
-echo url="https://$username:$password@domains.google.com/nic/update?hostname=$domainToUpdate.com&myip=$externalIp" | curl -k -o ./response.log -K -
+echo url="https://$username:$password@domains.google.com/nic/update?hostname=$domainToUpdate&myip=$externalIp" | curl -k -o ./response.log -K -
